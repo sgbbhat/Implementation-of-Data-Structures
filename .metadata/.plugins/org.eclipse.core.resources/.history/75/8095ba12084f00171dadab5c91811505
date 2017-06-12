@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : TowerOfHanoi.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+void TowerOfHanoi(int n, char frompeg, char topeg, char auxpeg)
+{
+	if(n == 1)
+	{
+		cout<<"";
+	}
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

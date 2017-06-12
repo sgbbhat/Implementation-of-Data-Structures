@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : ClassSize.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct book{
+	int SBN;
+	string author;
+};
+
+class student{
+	int serialNo;
+	string name;
+
+public:
+	void setName(string n){
+		name = n;
+	}
+
+	void setserialNo(int slNo){
+		serialNo = slNo;
+	}
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

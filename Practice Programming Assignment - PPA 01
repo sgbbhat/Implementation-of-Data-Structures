@@ -1,0 +1,33 @@
+//-----Include required headers here-----
+#include<iostream>
+using namespace std;
+//-----End of headers-----
+
+//-----Don't change/delete structs-----
+struct vertex{
+   float x;
+   float y;
+};
+
+struct triangle{
+    vertex vertices[3];
+};
+//-----Structs end here
+
+
+//-----Add new functions here(if any)-----
+
+//-----New functions end here-----
+
+float cal_area(triangle aTriangle) {
+    //Write your solution below this line
+    
+    float area;
+    
+    area = 0.5 *( (aTriangle.vertices[0].x * ( aTriangle.vertices[1].y - aTriangle.vertices[2].y)) +  
+                  (aTriangle.vertices[1].x * ( aTriangle.vertices[2].y - aTriangle.vertices[0].y)) + 
+                  (aTriangle.vertices[2].x * ( aTriangle.vertices[0].y - aTriangle.vertices[1].y)) ) ;
+    
+    return area;
+    //Dont write below this line
+}

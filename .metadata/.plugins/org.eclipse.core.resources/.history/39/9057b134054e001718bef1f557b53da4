@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : Traingle.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct Point{
+	float x,y;
+};
+
+struct Triangle{
+	Point p[3];
+};
+
+void readPoint(Point &p){
+	cout<<"Enter x and y coordinates : "<<endl;
+	cin>>p.x>>p.y;
+}
+
+void readTriangle(Triangle &t){
+	for(int i=0; i<3; i++){
+		readPoint(t.p[i]);
+	}
+}
+
+int main() {
+	Triangle T1;
+	return 0;
+}

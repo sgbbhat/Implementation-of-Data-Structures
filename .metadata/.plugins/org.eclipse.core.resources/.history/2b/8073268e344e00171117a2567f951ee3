@@ -1,0 +1,43 @@
+//============================================================================
+// Name        : FileOp.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	const char * path = "/home/shreeganesh/Documents/C++/Implementation-of-Data-Structures/FileOp/test.txt";
+	FILE * fp;
+	fp = fopen(path, "r");
+	char buffer[] = { 'x' , 'y' , 'z' };
+
+	if(fp == NULL){
+		cout<<"Couldn't be opened"<<endl;
+	}
+	else{
+		fwrite(buffer , sizeof(char), sizeof(buffer), fp);
+		fclose(fp);
+	}
+
+	 long lSize;
+	 char * read_buffer;
+	 size_t result;
+
+	 // obtain file size:
+	 fseek (fp , 0 , SEEK_END);
+	  lSize = ftell (pFile);
+	  rewind (pFile);
+
+	  // allocate memory to contain the whole file:
+	  buffer = (char*) malloc (sizeof(char)*lSize);
+	  if (buffer == NULL) {fputs ("Memory error",stderr); exit (2);}
+
+	  // copy the file into the buffer:
+	  result = fread (buffer,1,lSize,pFile);
+
+	return 0;
+}

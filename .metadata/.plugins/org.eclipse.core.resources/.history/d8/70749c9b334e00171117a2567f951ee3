@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : FileOp.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	const char * path = "/home/shreeganesh/Documents/C++/Implementation-of-Data-Structures/FileOp/test.txt";
+	FILE * fp;
+	fp = fopen(path, "r");
+
+	if(fp == NULL){
+		cout<<"Couldn't be opened"<,endl;
+	}
+	return 0;
+}

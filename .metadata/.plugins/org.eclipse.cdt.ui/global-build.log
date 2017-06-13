@@ -1,617 +1,695 @@
-12:02:58 **** Build of configuration Debug for project ClassSize ****
-make all 
-Building file: ../src/ClassSize.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-../src/ClassSize.cpp: In member function ‘void student::setName(std::__cxx11::string)’:
-../src/ClassSize.cpp:22:25: error: only constructors take member initializers
-  void setName(string n):name(n){
-                         ^~~~
-../src/ClassSize.cpp: In member function ‘void student::setserialNo(int)’:
-../src/ClassSize.cpp:26:29: error: only constructors take member initializers
-  void setserialNo(int slNo):serialNo(slNo){
-                             ^~~~~~~~
-src/subdir.mk:18: recipe for target 'src/ClassSize.o' failed
-make: *** [src/ClassSize.o] Error 1
-12:03:36 **** Incremental Build of configuration Debug for project ClassSize ****
-make all 
-Building file: ../src/ClassSize.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-Finished building: ../src/ClassSize.cpp
- 
-Building target: ClassSize
-Invoking: Cross G++ Linker
-g++  -o "ClassSize"  ./src/ClassSize.o   
-Finished building target: ClassSize
- 
-12:04:46 **** Incremental Build of configuration Debug for project ClassSize ****
-make all 
-Building file: ../src/ClassSize.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-Finished building: ../src/ClassSize.cpp
- 
-Building target: ClassSize
-Invoking: Cross G++ Linker
-g++  -o "ClassSize"  ./src/ClassSize.o   
-Finished building target: ClassSize
- 
-12:04:59 **** Incremental Build of configuration Debug for project ClassSize ****
+17:37:36 **** Incremental Build of configuration Debug for project Vector3dim ****
 make all 
 make: Nothing to be done for 'all'.
-12:05:44 **** Incremental Build of configuration Debug for project ClassSize ****
-make all 
-Building file: ../src/ClassSize.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-../src/ClassSize.cpp: In function ‘int main()’:
-../src/ClassSize.cpp:35:48: error: expected primary-expression before ‘<<’ token
-  cout<<"Size occupied by book : "<<sizeof(b1)<<<<endl;
-                                                ^~
-src/subdir.mk:18: recipe for target 'src/ClassSize.o' failed
-make: *** [src/ClassSize.o] Error 1
-12:06:09 **** Incremental Build of configuration Debug for project ClassSize ****
-make all 
-Building file: ../src/ClassSize.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-../src/ClassSize.cpp: In function ‘int main()’:
-../src/ClassSize.cpp:36:48: error: expected primary-expression before ‘<<’ token
-  cout<<"Size occupied by book : "<<sizeof(b1)<<<<endl;
-                                                ^~
-src/subdir.mk:18: recipe for target 'src/ClassSize.o' failed
-make: *** [src/ClassSize.o] Error 1
-12:06:22 **** Incremental Build of configuration Debug for project ClassSize ****
-make all 
-Building file: ../src/ClassSize.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-Finished building: ../src/ClassSize.cpp
- 
-Building target: ClassSize
-Invoking: Cross G++ Linker
-g++  -o "ClassSize"  ./src/ClassSize.o   
-Finished building target: ClassSize
- 
-12:06:26 **** Incremental Build of configuration Debug for project ClassSize ****
+17:37:44 **** Incremental Build of configuration Debug for project Vector3dim ****
 make all 
 make: Nothing to be done for 'all'.
-12:06:57 **** Incremental Build of configuration Debug for project ClassSize ****
+18:41:30 **** Build of configuration Debug for project VectorSTL ****
 make all 
-Building file: ../src/ClassSize.cpp
+Building file: ../src/VectorSTL.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-Finished building: ../src/ClassSize.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+Finished building: ../src/VectorSTL.cpp
  
-Building target: ClassSize
+Building target: VectorSTL
 Invoking: Cross G++ Linker
-g++  -o "ClassSize"  ./src/ClassSize.o   
-Finished building target: ClassSize
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
  
-12:07:00 **** Incremental Build of configuration Debug for project ClassSize ****
+18:41:54 **** Incremental Build of configuration Debug for project VectorSTL ****
+make all 
+Building file: ../src/VectorSTL.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+Finished building: ../src/VectorSTL.cpp
+ 
+Building target: VectorSTL
+Invoking: Cross G++ Linker
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
+ 
+18:42:50 **** Incremental Build of configuration Debug for project VectorSTL ****
+make all 
+Building file: ../src/VectorSTL.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+../src/VectorSTL.cpp: In function ‘int main()’:
+../src/VectorSTL.cpp:26:19: error: no match for ‘operator<’ (operand types are ‘int’ and ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’)
+  for(int i = 0; i < v.end(); i++)
+                 ~~^~~~~~~~~
+In file included from /usr/include/c++/6/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/6/bits/char_traits.h:39,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/stl_pair.h:441:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_pair.h:441:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::pair<_T1, _T2>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/6/bits/char_traits.h:39,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/stl_iterator.h:298:5: note: candidate: template<class _Iterator> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator<(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_iterator.h:298:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::reverse_iterator<_Iterator>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/6/bits/char_traits.h:39,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/stl_iterator.h:355:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator<(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_iterator.h:355:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::reverse_iterator<_Iterator>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/6/bits/char_traits.h:39,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/stl_iterator.h:1137:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator<(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_iterator.h:1137:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::move_iterator<_IteratorL>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/6/bits/char_traits.h:39,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/stl_iterator.h:1143:5: note: candidate: template<class _Iterator> bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+     operator<(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_iterator.h:1143:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::move_iterator<_IteratorL>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/string:52:0,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/basic_string.h:5150:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:5150:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/string:52:0,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/basic_string.h:5163:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:5163:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/string:52:0,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/basic_string.h:5175:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<(const _CharT* __lhs,
+     ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:5175:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const _CharT*’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/bits/ios_base.h:46:0,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/system_error:200:3: note: candidate: bool std::operator<(const std::error_code&, const std::error_code&)
+   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+/usr/include/c++/6/system_error:200:3: note:   no known conversion for argument 1 from ‘int’ to ‘const std::error_code&’
+/usr/include/c++/6/system_error:274:3: note: candidate: bool std::operator<(const std::error_condition&, const std::error_condition&)
+   operator<(const error_condition& __lhs,
+   ^~~~~~~~
+/usr/include/c++/6/system_error:274:3: note:   no known conversion for argument 1 from ‘int’ to ‘const std::error_condition&’
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h:1526:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:1526:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const std::vector<_Tp, _Alloc>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/6/bits/char_traits.h:39,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/stl_iterator.h:892:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator<(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator<(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_iterator.h:892:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+In file included from /usr/include/c++/6/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/6/bits/char_traits.h:39,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/stl_iterator.h:885:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator<(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator<(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/6/bits/stl_iterator.h:885:5: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:26:27: note:   mismatched types ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’ and ‘int’
+  for(int i = 0; i < v.end(); i++)
+                           ^
+src/subdir.mk:18: recipe for target 'src/VectorSTL.o' failed
+make: *** [src/VectorSTL.o] Error 1
+18:42:59 **** Incremental Build of configuration Debug for project VectorSTL ****
+make all 
+Building file: ../src/VectorSTL.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+Finished building: ../src/VectorSTL.cpp
+ 
+Building target: VectorSTL
+Invoking: Cross G++ Linker
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
+ 
+18:43:33 **** Incremental Build of configuration Debug for project VectorSTL ****
+make all 
+Building file: ../src/VectorSTL.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+Finished building: ../src/VectorSTL.cpp
+ 
+Building target: VectorSTL
+Invoking: Cross G++ Linker
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
+ 
+18:43:43 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
 make: Nothing to be done for 'all'.
-12:08:07 **** Incremental Build of configuration Debug for project ClassSize ****
+18:44:03 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
-Building file: ../src/ClassSize.cpp
+Building file: ../src/VectorSTL.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-Finished building: ../src/ClassSize.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+../src/VectorSTL.cpp: In function ‘int main()’:
+../src/VectorSTL.cpp:30:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < v.size(); i++)
+                 ~~^~~~~~~~~~
+Finished building: ../src/VectorSTL.cpp
  
-Building target: ClassSize
+Building target: VectorSTL
 Invoking: Cross G++ Linker
-g++  -o "ClassSize"  ./src/ClassSize.o   
-Finished building target: ClassSize
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
  
-12:08:10 **** Incremental Build of configuration Debug for project ClassSize ****
+18:44:18 **** Incremental Build of configuration Debug for project VectorSTL ****
+make all 
+Building file: ../src/VectorSTL.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+Finished building: ../src/VectorSTL.cpp
+ 
+Building target: VectorSTL
+Invoking: Cross G++ Linker
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
+ 
+18:44:20 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
 make: Nothing to be done for 'all'.
-12:08:19 **** Incremental Build of configuration Debug for project ClassSize ****
+18:45:18 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
-Building file: ../src/ClassSize.cpp
+Building file: ../src/VectorSTL.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ClassSize.d" -MT"src/ClassSize.d" -o "src/ClassSize.o" "../src/ClassSize.cpp"
-Finished building: ../src/ClassSize.cpp
- 
-Building target: ClassSize
-Invoking: Cross G++ Linker
-g++  -o "ClassSize"  ./src/ClassSize.o   
-Finished building target: ClassSize
- 
-12:08:23 **** Incremental Build of configuration Debug for project ClassSize ****
-make all 
-make: Nothing to be done for 'all'.
-12:30:33 **** Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-12:31:26 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-12:49:57 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-12:51:45 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-12:52:03 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-12:52:13 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-make: Nothing to be done for 'all'.
-12:53:36 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-12:54:14 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-make: Nothing to be done for 'all'.
-12:54:17 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-make: Nothing to be done for 'all'.
-12:55:10 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-12:55:13 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-make: Nothing to be done for 'all'.
-12:59:41 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-13:07:50 **** Incremental Build of configuration Debug for project Traingle ****
-make all 
-Building file: ../src/Traingle.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traingle.d" -MT"src/Traingle.d" -o "src/Traingle.o" "../src/Traingle.cpp"
-Finished building: ../src/Traingle.cpp
- 
-Building target: Traingle
-Invoking: Cross G++ Linker
-g++  -o "Traingle"  ./src/Traingle.o   
-Finished building target: Traingle
- 
-18:19:25 **** Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:15:22: error: cannot convert ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ to ‘const char*’ for argument ‘1’ to ‘FILE* fopen(const char*, const char*)’
-  fp = fopen(path, 'r');
-                      ^
-src/subdir.mk:18: recipe for target 'src/FileOp.o' failed
-make: *** [src/FileOp.o] Error 1
-18:19:45 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:13:16: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
-  char * path = "/home/shreeganesh/Documents/C++/Implementation-of-Data-Structures/FileOp/test.txt";
-                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/FileOp.cpp:15:22: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
-  fp = fopen(path, 'r');
-                      ^
-In file included from /usr/include/c++/6/cstdio:42:0,
-                 from /usr/include/c++/6/ext/string_conversions.h:43,
-                 from /usr/include/c++/6/bits/basic_string.h:5417,
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+In file included from /usr/include/c++/6/ext/alloc_traits.h:36:0,
+                 from /usr/include/c++/6/bits/basic_string.h:40,
                  from /usr/include/c++/6/string:52,
                  from /usr/include/c++/6/bits/locale_classes.h:40,
                  from /usr/include/c++/6/bits/ios_base.h:41,
                  from /usr/include/c++/6/ios:42,
                  from /usr/include/c++/6/ostream:38,
                  from /usr/include/c++/6/iostream:39,
-                 from ../src/FileOp.cpp:9:
-/usr/include/stdio.h:274:14: note:   initializing argument 2 of ‘FILE* fopen(const char*, const char*)’
- extern FILE *fopen (const char *__restrict __filename,
-              ^~~~~
-src/subdir.mk:18: recipe for target 'src/FileOp.o' failed
-make: *** [src/FileOp.o] Error 1
-18:20:02 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:15:22: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
-  fp = fopen(path, 'r');
-                      ^
-In file included from /usr/include/c++/6/cstdio:42:0,
-                 from /usr/include/c++/6/ext/string_conversions.h:43,
-                 from /usr/include/c++/6/bits/basic_string.h:5417,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>’:
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:88:43: error: ‘int’ is not a class, struct, or union type
+       typedef typename _Alloc::value_type value_type;
+                                           ^~~~~~~~~~
+/usr/include/c++/6/bits/alloc_traits.h:95:70: error: ‘int’ is not a class, struct, or union type
+       using pointer = __detected_or_t<value_type*, __pointer, _Alloc>;
+                                                                      ^
+/usr/include/c++/6/bits/alloc_traits.h:135:79: error: ‘int’ is not a class, struct, or union type
+       using const_pointer = typename _Ptr<__c_pointer, const value_type>::type;
+                                                                               ^
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>::_Ptr<std::__allocator_traits_base::__v_pointer, void, void>’:
+/usr/include/c++/6/bits/alloc_traits.h:143:66:   required from ‘struct std::allocator_traits<int>’
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:102:71: error: ‘int’ is not a class, struct, or union type
+    using type = typename pointer_traits<pointer>::template rebind<_Tp>;
+                                                                       ^
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>::_Ptr<std::__allocator_traits_base::__cv_pointer, const void, void>’:
+/usr/include/c++/6/bits/alloc_traits.h:151:79:   required from ‘struct std::allocator_traits<int>’
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:102:71: error: ‘int’ is not a class, struct, or union type
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>’:
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:159:68: error: ‘int’ is not a class, struct, or union type
+       using difference_type = typename _Diff<_Alloc, pointer>::type;
+                                                                    ^
+/usr/include/c++/6/bits/alloc_traits.h:167:70: error: ‘int’ is not a class, struct, or union type
+       using size_type = typename _Size<_Alloc, difference_type>::type;
+                                                                      ^
+In file included from /usr/include/c++/6/bits/basic_string.h:40:0,
                  from /usr/include/c++/6/string:52,
                  from /usr/include/c++/6/bits/locale_classes.h:40,
                  from /usr/include/c++/6/bits/ios_base.h:41,
                  from /usr/include/c++/6/ios:42,
                  from /usr/include/c++/6/ostream:38,
                  from /usr/include/c++/6/iostream:39,
-                 from ../src/FileOp.cpp:9:
-/usr/include/stdio.h:274:14: note:   initializing argument 2 of ‘FILE* fopen(const char*, const char*)’
- extern FILE *fopen (const char *__restrict __filename,
-              ^~~~~
-src/subdir.mk:18: recipe for target 'src/FileOp.o' failed
-make: *** [src/FileOp.o] Error 1
-18:20:35 **** Incremental Build of configuration Debug for project FileOp ****
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/ext/alloc_traits.h: In instantiation of ‘struct __gnu_cxx::__alloc_traits<int>’:
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/ext/alloc_traits.h:66:23: error: no members matching ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka std::allocator_traits<int>}::allocate’ in ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka struct std::allocator_traits<int>}’
+     using _Base_type::allocate;
+                       ^~~~~~~~
+/usr/include/c++/6/ext/alloc_traits.h:67:23: error: no members matching ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka std::allocator_traits<int>}::deallocate’ in ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka struct std::allocator_traits<int>}’
+     using _Base_type::deallocate;
+                       ^~~~~~~~~~
+/usr/include/c++/6/ext/alloc_traits.h:70:23: error: no members matching ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka std::allocator_traits<int>}::max_size’ in ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka struct std::allocator_traits<int>}’
+     using _Base_type::max_size;
+                       ^~~~~~~~
+In file included from /usr/include/c++/6/ext/alloc_traits.h:36:0,
+                 from /usr/include/c++/6/bits/basic_string.h:40,
+                 from /usr/include/c++/6/string:52,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/alloc_traits.h: In substitution of ‘template<class _Alloc, class _Up> using __alloc_rebind = typename std::__allocator_traits_base::__rebind<_Alloc, _Up>::type [with _Alloc = int; _Up = int]’:
+/usr/include/c++/6/bits/alloc_traits.h:206:50:   required by substitution of ‘template<class _Alloc> template<class _Tp> using rebind_alloc = std::__alloc_rebind<_Alloc, _Tp> [with _Tp = int; _Alloc = int]’
+/usr/include/c++/6/ext/alloc_traits.h:117:65:   required from ‘struct __gnu_cxx::__alloc_traits<int>::rebind<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:76:79: error: no type named ‘type’ in ‘struct std::__allocator_traits_base::__rebind<int, int, void>’
+       = typename __allocator_traits_base::template __rebind<_Alloc, _Up>::type;
+                                                                               ^
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘class std::vector<int, int>’:
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:217:58: error: ‘int’ is not a class, struct, or union type
+       typedef typename _Alloc::value_type                _Alloc_value_type;
+                                                          ^~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:243:20: error: no members matching ‘std::vector<int, int>::_Base {aka std::_Vector_base<int, int>}::_M_allocate’ in ‘std::vector<int, int>::_Base {aka struct std::_Vector_base<int, int>}’
+       using _Base::_M_allocate;
+                    ^~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:244:20: error: no members matching ‘std::vector<int, int>::_Base {aka std::_Vector_base<int, int>}::_M_deallocate’ in ‘std::vector<int, int>::_Base {aka struct std::_Vector_base<int, int>}’
+       using _Base::_M_deallocate;
+                    ^~~~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:246:20: error: no members matching ‘std::vector<int, int>::_Base {aka std::_Vector_base<int, int>}::_M_get_Tp_allocator’ in ‘std::vector<int, int>::_Base {aka struct std::_Vector_base<int, int>}’
+       using _Base::_M_get_Tp_allocator;
+                    ^~~~~~~~~~~~~~~~~~~
+../src/VectorSTL.cpp: In function ‘int main()’:
+../src/VectorSTL.cpp:23:13: error: ‘class std::vector<int, int>’ has no member named ‘begin’
+  for(it = v.begin(); it != v.end(); it++)
+             ^~~~~
+../src/VectorSTL.cpp:23:30: error: ‘class std::vector<int, int>’ has no member named ‘end’
+  for(it = v.begin(); it != v.end(); it++)
+                              ^~~
+../src/VectorSTL.cpp:32:10: error: no match for ‘operator[]’ (operand types are ‘std::vector<int, int>’ and ‘unsigned int’)
+   cout<<v[i]<<endl;
+          ^
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::vector<_Tp, _Alloc>::~vector() [with _Tp = int; _Alloc = int]’:
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:426:37: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+       { std::_Destroy(this->_M_impl._M_start, this->_M_impl._M_finish,
+                       ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:426:61: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+       { std::_Destroy(this->_M_impl._M_start, this->_M_impl._M_finish,
+                                               ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:427:28: error: ‘_M_get_Tp_allocator’ was not declared in this scope
+         _M_get_Tp_allocator()); }
+         ~~~~~~~~~~~~~~~~~~~^~
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = int; std::vector<_Tp, _Alloc>::size_type = long unsigned int]’:
+../src/VectorSTL.cpp:30:37:   required from here
+/usr/include/c++/6/bits/stl_vector.h:656:40: error: ‘const struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+       { return size_type(this->_M_impl._M_finish - this->_M_impl._M_start); }
+                          ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:656:66: error: ‘const struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+       { return size_type(this->_M_impl._M_finish - this->_M_impl._M_start); }
+                                                    ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = int]’:
+/usr/include/c++/6/bits/stl_vector.h:259:15:   required from ‘std::vector<_Tp, _Alloc>::vector() [with _Tp = int; _Alloc = int]’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:160:37: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+       { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+                       ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:160:61: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_end_of_storage’
+       { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+                                               ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:161:25: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+         - this->_M_impl._M_start); }
+           ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:160:22: error: ‘_M_deallocate’ was not declared in this scope
+       { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+         ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         - this->_M_impl._M_start); }
+         ~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/6/vector:69:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/vector.tcc: In instantiation of ‘void std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {int}; _Tp = int; _Alloc = int]’:
+/usr/include/c++/6/bits/stl_vector.h:933:9:   required from ‘void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = int; std::vector<_Tp, _Alloc>::value_type = int]’
+../src/VectorSTL.cpp:16:16:   required from here
+/usr/include/c++/6/bits/vector.tcc:94:20: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+  if (this->_M_impl._M_finish != this->_M_impl._M_end_of_storage)
+      ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/vector.tcc:94:47: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_end_of_storage’
+  if (this->_M_impl._M_finish != this->_M_impl._M_end_of_storage)
+                                 ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/vector.tcc:96:60: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+      _Alloc_traits::construct(this->_M_impl, this->_M_impl._M_finish,
+                                              ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/vector.tcc:98:22: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+      ++this->_M_impl._M_finish;
+        ~~~~~~~~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = int; _Alloc = int]’:
+/usr/include/c++/6/bits/stl_vector.h:125:17:   required from ‘std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = int; _Alloc = int]’
+/usr/include/c++/6/bits/stl_vector.h:259:15:   required from ‘std::vector<_Tp, _Alloc>::vector() [with _Tp = int; _Alloc = int]’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:87:65: error: using invalid field ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_M_start’
+  : _Tp_alloc_type(), _M_start(), _M_finish(), _M_end_of_storage()
+                                                                 ^
+/usr/include/c++/6/bits/stl_vector.h:87:65: error: using invalid field ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_M_finish’
+/usr/include/c++/6/bits/stl_vector.h:87:65: error: using invalid field ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_M_end_of_storage’
+make: *** [src/VectorSTL.o] Error 1
+src/subdir.mk:18: recipe for target 'src/VectorSTL.o' failed
+18:46:01 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
-Building file: ../src/FileOp.cpp
+Building file: ../src/VectorSTL.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:15:23: error: cannot convert ‘const char**’ to ‘const char*’ for argument ‘1’ to ‘FILE* fopen(const char*, const char*)’
-  fp = fopen(&path, 'r');
-                       ^
-make: *** [src/FileOp.o] Error 1
-src/subdir.mk:18: recipe for target 'src/FileOp.o' failed
-18:21:22 **** Incremental Build of configuration Debug for project FileOp ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+In file included from /usr/include/c++/6/ext/alloc_traits.h:36:0,
+                 from /usr/include/c++/6/bits/basic_string.h:40,
+                 from /usr/include/c++/6/string:52,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>’:
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:88:43: error: ‘int’ is not a class, struct, or union type
+       typedef typename _Alloc::value_type value_type;
+                                           ^~~~~~~~~~
+/usr/include/c++/6/bits/alloc_traits.h:95:70: error: ‘int’ is not a class, struct, or union type
+       using pointer = __detected_or_t<value_type*, __pointer, _Alloc>;
+                                                                      ^
+/usr/include/c++/6/bits/alloc_traits.h:135:79: error: ‘int’ is not a class, struct, or union type
+       using const_pointer = typename _Ptr<__c_pointer, const value_type>::type;
+                                                                               ^
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>::_Ptr<std::__allocator_traits_base::__v_pointer, void, void>’:
+/usr/include/c++/6/bits/alloc_traits.h:143:66:   required from ‘struct std::allocator_traits<int>’
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:102:71: error: ‘int’ is not a class, struct, or union type
+    using type = typename pointer_traits<pointer>::template rebind<_Tp>;
+                                                                       ^
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>::_Ptr<std::__allocator_traits_base::__cv_pointer, const void, void>’:
+/usr/include/c++/6/bits/alloc_traits.h:151:79:   required from ‘struct std::allocator_traits<int>’
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:102:71: error: ‘int’ is not a class, struct, or union type
+/usr/include/c++/6/bits/alloc_traits.h: In instantiation of ‘struct std::allocator_traits<int>’:
+/usr/include/c++/6/ext/alloc_traits.h:50:10:   required from ‘struct __gnu_cxx::__alloc_traits<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:159:68: error: ‘int’ is not a class, struct, or union type
+       using difference_type = typename _Diff<_Alloc, pointer>::type;
+                                                                    ^
+/usr/include/c++/6/bits/alloc_traits.h:167:70: error: ‘int’ is not a class, struct, or union type
+       using size_type = typename _Size<_Alloc, difference_type>::type;
+                                                                      ^
+In file included from /usr/include/c++/6/bits/basic_string.h:40:0,
+                 from /usr/include/c++/6/string:52,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/ext/alloc_traits.h: In instantiation of ‘struct __gnu_cxx::__alloc_traits<int>’:
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/ext/alloc_traits.h:66:23: error: no members matching ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka std::allocator_traits<int>}::allocate’ in ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka struct std::allocator_traits<int>}’
+     using _Base_type::allocate;
+                       ^~~~~~~~
+/usr/include/c++/6/ext/alloc_traits.h:67:23: error: no members matching ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka std::allocator_traits<int>}::deallocate’ in ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka struct std::allocator_traits<int>}’
+     using _Base_type::deallocate;
+                       ^~~~~~~~~~
+/usr/include/c++/6/ext/alloc_traits.h:70:23: error: no members matching ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka std::allocator_traits<int>}::max_size’ in ‘__gnu_cxx::__alloc_traits<int>::_Base_type {aka struct std::allocator_traits<int>}’
+     using _Base_type::max_size;
+                       ^~~~~~~~
+In file included from /usr/include/c++/6/ext/alloc_traits.h:36:0,
+                 from /usr/include/c++/6/bits/basic_string.h:40,
+                 from /usr/include/c++/6/string:52,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/VectorSTL.cpp:9:
+/usr/include/c++/6/bits/alloc_traits.h: In substitution of ‘template<class _Alloc, class _Up> using __alloc_rebind = typename std::__allocator_traits_base::__rebind<_Alloc, _Up>::type [with _Alloc = int; _Up = int]’:
+/usr/include/c++/6/bits/alloc_traits.h:206:50:   required by substitution of ‘template<class _Alloc> template<class _Tp> using rebind_alloc = std::__alloc_rebind<_Alloc, _Tp> [with _Tp = int; _Alloc = int]’
+/usr/include/c++/6/ext/alloc_traits.h:117:65:   required from ‘struct __gnu_cxx::__alloc_traits<int>::rebind<int>’
+/usr/include/c++/6/bits/stl_vector.h:75:28:   required from ‘struct std::_Vector_base<int, int>’
+/usr/include/c++/6/bits/stl_vector.h:214:11:   required from ‘class std::vector<int, int>’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/alloc_traits.h:76:79: error: no type named ‘type’ in ‘struct std::__allocator_traits_base::__rebind<int, int, void>’
+       = typename __allocator_traits_base::template __rebind<_Alloc, _Up>::type;
+                                                                               ^
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘class std::vector<int, int>’:
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:217:58: error: ‘int’ is not a class, struct, or union type
+       typedef typename _Alloc::value_type                _Alloc_value_type;
+                                                          ^~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:243:20: error: no members matching ‘std::vector<int, int>::_Base {aka std::_Vector_base<int, int>}::_M_allocate’ in ‘std::vector<int, int>::_Base {aka struct std::_Vector_base<int, int>}’
+       using _Base::_M_allocate;
+                    ^~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:244:20: error: no members matching ‘std::vector<int, int>::_Base {aka std::_Vector_base<int, int>}::_M_deallocate’ in ‘std::vector<int, int>::_Base {aka struct std::_Vector_base<int, int>}’
+       using _Base::_M_deallocate;
+                    ^~~~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:246:20: error: no members matching ‘std::vector<int, int>::_Base {aka std::_Vector_base<int, int>}::_M_get_Tp_allocator’ in ‘std::vector<int, int>::_Base {aka struct std::_Vector_base<int, int>}’
+       using _Base::_M_get_Tp_allocator;
+                    ^~~~~~~~~~~~~~~~~~~
+../src/VectorSTL.cpp: In function ‘int main()’:
+../src/VectorSTL.cpp:23:13: error: ‘class std::vector<int, int>’ has no member named ‘begin’
+  for(it = v.begin(); it != v.end(); it++)
+             ^~~~~
+../src/VectorSTL.cpp:23:30: error: ‘class std::vector<int, int>’ has no member named ‘end’
+  for(it = v.begin(); it != v.end(); it++)
+                              ^~~
+../src/VectorSTL.cpp:32:10: error: no match for ‘operator[]’ (operand types are ‘std::vector<int, int>’ and ‘unsigned int’)
+   cout<<v[i]<<endl;
+          ^
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::vector<_Tp, _Alloc>::~vector() [with _Tp = int; _Alloc = int]’:
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:426:37: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+       { std::_Destroy(this->_M_impl._M_start, this->_M_impl._M_finish,
+                       ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:426:61: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+       { std::_Destroy(this->_M_impl._M_start, this->_M_impl._M_finish,
+                                               ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:427:28: error: ‘_M_get_Tp_allocator’ was not declared in this scope
+         _M_get_Tp_allocator()); }
+         ~~~~~~~~~~~~~~~~~~~^~
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = int; std::vector<_Tp, _Alloc>::size_type = long unsigned int]’:
+../src/VectorSTL.cpp:30:37:   required from here
+/usr/include/c++/6/bits/stl_vector.h:656:40: error: ‘const struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+       { return size_type(this->_M_impl._M_finish - this->_M_impl._M_start); }
+                          ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:656:66: error: ‘const struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+       { return size_type(this->_M_impl._M_finish - this->_M_impl._M_start); }
+                                                    ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = int]’:
+/usr/include/c++/6/bits/stl_vector.h:259:15:   required from ‘std::vector<_Tp, _Alloc>::vector() [with _Tp = int; _Alloc = int]’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:160:37: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+       { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+                       ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:160:61: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_end_of_storage’
+       { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+                                               ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:161:25: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_start’; did you mean ‘_M_swap_data’?
+         - this->_M_impl._M_start); }
+           ~~~~~~~~~~~~~~^~~~~~~~
+/usr/include/c++/6/bits/stl_vector.h:160:22: error: ‘_M_deallocate’ was not declared in this scope
+       { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+         ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         - this->_M_impl._M_start); }
+         ~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/6/vector:69:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/vector.tcc: In instantiation of ‘void std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {int}; _Tp = int; _Alloc = int]’:
+/usr/include/c++/6/bits/stl_vector.h:933:9:   required from ‘void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = int; std::vector<_Tp, _Alloc>::value_type = int]’
+../src/VectorSTL.cpp:16:16:   required from here
+/usr/include/c++/6/bits/vector.tcc:94:20: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+  if (this->_M_impl._M_finish != this->_M_impl._M_end_of_storage)
+      ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/vector.tcc:94:47: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_end_of_storage’
+  if (this->_M_impl._M_finish != this->_M_impl._M_end_of_storage)
+                                 ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/vector.tcc:96:60: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+      _Alloc_traits::construct(this->_M_impl, this->_M_impl._M_finish,
+                                              ~~~~~~~~~~~~~~^~~~~~~~~
+/usr/include/c++/6/bits/vector.tcc:98:22: error: ‘struct std::_Vector_base<int, int>::_Vector_impl’ has no member named ‘_M_finish’
+      ++this->_M_impl._M_finish;
+        ~~~~~~~~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h: In instantiation of ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = int; _Alloc = int]’:
+/usr/include/c++/6/bits/stl_vector.h:125:17:   required from ‘std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = int; _Alloc = int]’
+/usr/include/c++/6/bits/stl_vector.h:259:15:   required from ‘std::vector<_Tp, _Alloc>::vector() [with _Tp = int; _Alloc = int]’
+../src/VectorSTL.cpp:14:19:   required from here
+/usr/include/c++/6/bits/stl_vector.h:87:65: error: using invalid field ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_M_start’
+  : _Tp_alloc_type(), _M_start(), _M_finish(), _M_end_of_storage()
+                                                                 ^
+/usr/include/c++/6/bits/stl_vector.h:87:65: error: using invalid field ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_M_finish’
+/usr/include/c++/6/bits/stl_vector.h:87:65: error: using invalid field ‘std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_M_end_of_storage’
+src/subdir.mk:18: recipe for target 'src/VectorSTL.o' failed
+make: *** [src/VectorSTL.o] Error 1
+18:46:21 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
-Building file: ../src/FileOp.cpp
+Building file: ../src/VectorSTL.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:14:9: warning: variable ‘fp’ set but not used [-Wunused-but-set-variable]
-  FILE * fp;
-         ^~
-Finished building: ../src/FileOp.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+Finished building: ../src/VectorSTL.cpp
  
-Building target: FileOp
+Building target: VectorSTL
 Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
  
-18:23:27 **** Incremental Build of configuration Debug for project FileOp ****
+18:58:53 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
-Building file: ../src/FileOp.cpp
+Building file: ../src/VectorSTL.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:23:10: error: ‘pFile’ was not declared in this scope
-   fclose(pFile);
-          ^~~~~
-src/subdir.mk:18: recipe for target 'src/FileOp.o' failed
-make: *** [src/FileOp.o] Error 1
-18:23:35 **** Incremental Build of configuration Debug for project FileOp ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+../src/VectorSTL.cpp: In function ‘int main()’:
+../src/VectorSTL.cpp:21:14: error: no matching function for call to ‘std::vector<int>::insert(int, int)’
+  v.insert(3,5);
+              ^
+In file included from /usr/include/c++/6/vector:69:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/vector.tcc:107:5: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*; std::vector<_Tp, _Alloc>::value_type = int]
+     vector<_Tp, _Alloc>::
+     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/vector.tcc:107:5: note:   no known conversion for argument 1 from ‘int’ to ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’
+In file included from /usr/include/c++/6/vector:64:0,
+                 from ../src/VectorSTL.cpp:10:
+/usr/include/c++/6/bits/stl_vector.h:1015:7: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(const_iterator __position, value_type&& __x)
+       ^~~~~~
+/usr/include/c++/6/bits/stl_vector.h:1015:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’
+/usr/include/c++/6/bits/stl_vector.h:1032:7: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*]
+       insert(const_iterator __position, initializer_list<value_type> __l)
+       ^~~~~~
+/usr/include/c++/6/bits/stl_vector.h:1032:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’
+/usr/include/c++/6/bits/stl_vector.h:1052:7: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(const_iterator __position, size_type __n, const value_type& __x)
+       ^~~~~~
+/usr/include/c++/6/bits/stl_vector.h:1052:7: note:   candidate expects 3 arguments, 2 provided
+/usr/include/c++/6/bits/stl_vector.h:1096:9: note: candidate: template<class _InputIterator, class> std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, _InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = int; _Alloc = std::allocator<int>]
+         insert(const_iterator __position, _InputIterator __first,
+         ^~~~~~
+/usr/include/c++/6/bits/stl_vector.h:1096:9: note:   template argument deduction/substitution failed:
+../src/VectorSTL.cpp:21:14: note:   candidate expects 3 arguments, 2 provided
+  v.insert(3,5);
+              ^
+src/subdir.mk:18: recipe for target 'src/VectorSTL.o' failed
+make: *** [src/VectorSTL.o] Error 1
+18:59:18 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
-Building file: ../src/FileOp.cpp
+Building file: ../src/VectorSTL.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VectorSTL.d" -MT"src/VectorSTL.d" -o "src/VectorSTL.o" "../src/VectorSTL.cpp"
+Finished building: ../src/VectorSTL.cpp
  
-Building target: FileOp
+Building target: VectorSTL
 Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
+g++  -o "VectorSTL"  ./src/VectorSTL.o   
+Finished building target: VectorSTL
  
-18:23:47 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:24:35 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:24:36 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:26:47 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:26:8: warning: unused variable ‘lSize’ [-Wunused-variable]
-   long lSize;
-        ^~~~~
-../src/FileOp.cpp:27:10: warning: unused variable ‘read_buffer’ [-Wunused-variable]
-   char * read_buffer;
-          ^~~~~~~~~~~
-../src/FileOp.cpp:28:10: warning: unused variable ‘result’ [-Wunused-variable]
-   size_t result;
-          ^~~~~~
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:29:02 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:36:47: error: incompatible types in assignment of ‘char*’ to ‘char [3]’
-    buffer = (char*) malloc (sizeof(char)*lSize);
-                                               ^
-../src/FileOp.cpp:40:35: error: ‘pFile’ was not declared in this scope
-    result = fread (buffer,1,lSize,pFile);
-                                   ^~~~~
-../src/FileOp.cpp:27:10: warning: unused variable ‘read_buffer’ [-Wunused-variable]
-   char * read_buffer;
-          ^~~~~~~~~~~
-src/subdir.mk:18: recipe for target 'src/FileOp.o' failed
-make: *** [src/FileOp.o] Error 1
-18:29:25 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:40:35: error: ‘pFile’ was not declared in this scope
-    result = fread (buffer,1,lSize,pFile);
-                                   ^~~~~
-src/subdir.mk:18: recipe for target 'src/FileOp.o' failed
-make: *** [src/FileOp.o] Error 1
-18:29:44 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-../src/FileOp.cpp: In function ‘int main()’:
-../src/FileOp.cpp:28:10: warning: variable ‘result’ set but not used [-Wunused-but-set-variable]
-   size_t result;
-          ^~~~~~
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:29:59 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:31:02 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:31:06 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:31:09 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:32:01 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:32:03 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:32:27 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:32:28 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:33:38 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:33:51 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:33:53 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:35:36 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:35:39 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:35:51 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-Building file: ../src/FileOp.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileOp.d" -MT"src/FileOp.d" -o "src/FileOp.o" "../src/FileOp.cpp"
-Finished building: ../src/FileOp.cpp
- 
-Building target: FileOp
-Invoking: Cross G++ Linker
-g++  -o "FileOp"  ./src/FileOp.o   
-Finished building target: FileOp
- 
-18:35:54 **** Incremental Build of configuration Debug for project FileOp ****
-make all 
-make: Nothing to be done for 'all'.
-18:00:05 **** Build of configuration Debug for project Fact_rec ****
-make all 
-Building file: ../src/Fact_rec.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Fact_rec.d" -MT"src/Fact_rec.d" -o "src/Fact_rec.o" "../src/Fact_rec.cpp"
-Finished building: ../src/Fact_rec.cpp
- 
-Building target: Fact_rec
-Invoking: Cross G++ Linker
-g++  -o "Fact_rec"  ./src/Fact_rec.o   
-Finished building target: Fact_rec
- 
-18:00:17 **** Incremental Build of configuration Debug for project Fact_rec ****
-make all 
-make: Nothing to be done for 'all'.
-19:44:54 **** Build of configuration Debug for project TowerOfHanoi ****
-make all 
-Building file: ../src/TowerOfHanoi.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TowerOfHanoi.d" -MT"src/TowerOfHanoi.d" -o "src/TowerOfHanoi.o" "../src/TowerOfHanoi.cpp"
-Finished building: ../src/TowerOfHanoi.cpp
- 
-Building target: TowerOfHanoi
-Invoking: Cross G++ Linker
-g++  -o "TowerOfHanoi"  ./src/TowerOfHanoi.o   
-Finished building target: TowerOfHanoi
- 
-19:47:05 **** Incremental Build of configuration Debug for project TowerOfHanoi ****
-make all 
-Building file: ../src/TowerOfHanoi.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TowerOfHanoi.d" -MT"src/TowerOfHanoi.d" -o "src/TowerOfHanoi.o" "../src/TowerOfHanoi.cpp"
-Finished building: ../src/TowerOfHanoi.cpp
- 
-Building target: TowerOfHanoi
-Invoking: Cross G++ Linker
-g++  -o "TowerOfHanoi"  ./src/TowerOfHanoi.o   
-Finished building target: TowerOfHanoi
- 
-19:48:02 **** Incremental Build of configuration Debug for project TowerOfHanoi ****
-make all 
-Building file: ../src/TowerOfHanoi.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TowerOfHanoi.d" -MT"src/TowerOfHanoi.d" -o "src/TowerOfHanoi.o" "../src/TowerOfHanoi.cpp"
-Finished building: ../src/TowerOfHanoi.cpp
- 
-Building target: TowerOfHanoi
-Invoking: Cross G++ Linker
-g++  -o "TowerOfHanoi"  ./src/TowerOfHanoi.o   
-Finished building target: TowerOfHanoi
- 
-19:48:14 **** Incremental Build of configuration Debug for project TowerOfHanoi ****
-make all 
-make: Nothing to be done for 'all'.
-19:48:32 **** Incremental Build of configuration Debug for project TowerOfHanoi ****
-make all 
-Building file: ../src/TowerOfHanoi.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TowerOfHanoi.d" -MT"src/TowerOfHanoi.d" -o "src/TowerOfHanoi.o" "../src/TowerOfHanoi.cpp"
-Finished building: ../src/TowerOfHanoi.cpp
- 
-Building target: TowerOfHanoi
-Invoking: Cross G++ Linker
-g++  -o "TowerOfHanoi"  ./src/TowerOfHanoi.o   
-Finished building target: TowerOfHanoi
- 
-19:48:34 **** Incremental Build of configuration Debug for project TowerOfHanoi ****
+18:59:22 **** Incremental Build of configuration Debug for project VectorSTL ****
 make all 
 make: Nothing to be done for 'all'.

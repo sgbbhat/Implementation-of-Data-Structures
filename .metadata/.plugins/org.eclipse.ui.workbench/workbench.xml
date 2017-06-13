@@ -19,6 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="212" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -34,9 +35,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="TowerOfHanoi.cpp" partName="TowerOfHanoi.cpp" path="/home/shreeganesh/Documents/C++/Implementation-of-Data-Structures/TowerOfHanoi/src/TowerOfHanoi.cpp" title="TowerOfHanoi.cpp" tooltip="TowerOfHanoi/src/TowerOfHanoi.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TowerOfHanoi/src/TowerOfHanoi.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="668" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="VectorSTL.cpp" partName="VectorSTL.cpp" path="/home/shreeganesh/Documents/C++/Implementation-of-Data-Structures/VectorSTL/src/VectorSTL.cpp" title="VectorSTL.cpp" tooltip="VectorSTL/src/VectorSTL.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VectorSTL/src/VectorSTL.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="524" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -46,8 +47,9 @@
 <expanded>
 <category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Errors (3 items)"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="281" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="281" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="571"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -224,7 +226,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.15957446" ratioLeft="210" ratioRight="1106" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.781575" ratioLeft="526" ratioRight="147" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.4947994" ratioLeft="333" ratioRight="340" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -255,149 +257,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ClassSize/src/ClassSize.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Traingle/src/Traingle.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FileOp/src/FileOp.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Fact_rec/src/Fact_rec.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TowerOfHanoi/src/TowerOfHanoi.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Vector3dim/src/Vector3dim.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/Vector3dim/Debug/src/subdir.mk"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VectorSTL/src/VectorSTL.cpp"/>
 </editors>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="472" y="0"/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="517" y="0"/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="518" y="0"/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="898" y="0"/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="810" y="0"/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="745" y="0"/>
-</item>
-<item historyLabel="ClassSize.cpp" index="0">
-<position info="not_deleted" x="720" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="926" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="550" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="1019" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="656" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="578" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="725" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="747" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="615" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="802" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="924" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="924" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="883" y="0"/>
-</item>
-<item historyLabel="Traingle.cpp" index="1">
-<position info="not_deleted" x="1098" y="0"/>
-</item>
-<item historyLabel="FileOp.cpp" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FileOp.cpp" index="2">
-<position info="not_deleted" x="503" y="0"/>
-</item>
-<item historyLabel="FileOp.cpp" index="2">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="FileOp.cpp" index="2">
-<position info="not_deleted" x="589" y="0"/>
-</item>
-<item historyLabel="FileOp.cpp" index="2">
-<position info="not_deleted" x="674" y="0"/>
-</item>
-<item historyLabel="FileOp.cpp" index="2">
+<item historyLabel="FileOp.cpp" index="0">
 <position info="not_deleted" x="1149" y="0"/>
 </item>
-<item historyLabel="Fact_rec.cpp" index="3">
+<item historyLabel="Fact_rec.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Fact_rec.cpp" index="3">
+<item historyLabel="Fact_rec.cpp" index="1">
 <position info="not_deleted" x="372" y="0"/>
 </item>
-<item historyLabel="Fact_rec.cpp" index="3">
+<item historyLabel="Fact_rec.cpp" index="1">
 <position info="not_deleted" x="395" y="0"/>
 </item>
-<item historyLabel="Fact_rec.cpp" index="3">
+<item historyLabel="Fact_rec.cpp" index="1">
 <position info="not_deleted" x="441" y="0"/>
 </item>
-<item historyLabel="Fact_rec.cpp" index="3">
+<item historyLabel="Fact_rec.cpp" index="1">
 <position info="not_deleted" x="490" y="0"/>
 </item>
-<item historyLabel="TowerOfHanoi.cpp" index="4">
+<item historyLabel="TowerOfHanoi.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TowerOfHanoi.cpp" index="4">
+<item historyLabel="TowerOfHanoi.cpp" index="2">
 <position info="not_deleted" x="419" y="0"/>
 </item>
-<item historyLabel="TowerOfHanoi.cpp" index="4">
+<item historyLabel="TowerOfHanoi.cpp" index="2">
 <position info="not_deleted" x="797" y="0"/>
 </item>
-<item historyLabel="TowerOfHanoi.cpp" index="4">
+<item historyLabel="TowerOfHanoi.cpp" index="2">
 <position info="not_deleted" x="512" y="0"/>
 </item>
-<item historyLabel="TowerOfHanoi.cpp" index="4">
+<item historyLabel="TowerOfHanoi.cpp" index="2">
 <position info="not_deleted" x="619" y="0"/>
 </item>
-<item historyLabel="TowerOfHanoi.cpp" index="4">
+<item historyLabel="TowerOfHanoi.cpp" index="2">
 <position/>
 </item>
-<item historyLabel="TowerOfHanoi.cpp" index="4">
+<item historyLabel="TowerOfHanoi.cpp" index="2">
 <position info="not_deleted" x="824" y="0"/>
 </item>
-<item active="true" historyLabel="TowerOfHanoi.cpp" index="4">
-<position info="not_deleted" x="844" y="0"/>
+<item historyLabel="TowerOfHanoi.cpp" index="2">
+<position info="not_deleted" x="668" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="827" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1168" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="562" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1066" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="427" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="577" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1166" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="2009" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="623" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="2009" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="2009" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1784" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1832" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="2005" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1896" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1926" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="2005" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="718" y="41"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="2009" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1952" y="0"/>
+</item>
+<item historyLabel="subdir.mk" index="4">
+<position info="not_deleted" x="694" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1952" y="0"/>
+</item>
+<item historyLabel="Vector3dim.cpp" index="3">
+<position info="not_deleted" x="1997" y="0"/>
+</item>
+<item historyLabel="VectorSTL.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VectorSTL.cpp" index="5">
+<position info="not_deleted" x="741" y="0"/>
+</item>
+<item historyLabel="VectorSTL.cpp" index="5">
+<position info="not_deleted" x="610" y="0"/>
+</item>
+<item active="true" historyLabel="VectorSTL.cpp" index="5">
+<position info="not_deleted" x="740" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -416,6 +431,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="VectorSTL.cpp" tooltip="VectorSTL/src/VectorSTL.cpp">
+<persistable path="/VectorSTL/src/VectorSTL.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="TowerOfHanoi.cpp" tooltip="TowerOfHanoi/src/TowerOfHanoi.cpp">
 <persistable path="/TowerOfHanoi/src/TowerOfHanoi.cpp"/>
 </file>
